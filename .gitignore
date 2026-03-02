@@ -416,3 +416,14 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Bỏ qua thư mục của Node.js (Frontend)
+node_modules/
+dist/
+.env
+
+# Bỏ qua các file biên dịch của .NET (Backend)
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
